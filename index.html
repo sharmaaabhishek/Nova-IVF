@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA IVF</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div id="consultationModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Book Your Free Consultation</h2>
+        <p class="mtb">
+          Please fill out the form below to book your consultation.
+        </p>
+        <form>
+          <input
+            class="input-form"
+            placeholder="Full Name*"
+            type="text"
+            name="name"
+            id="name"
+            required
+          /><br />
+          <input
+            class="input-form"
+            placeholder="Mobile Number*"
+            type="tel"
+            name="number"
+            id="number"
+            maxlength="10"
+            required
+          /><br /><input
+            class="input-form"
+            placeholder="Pincode*"
+            type="number"
+            name="pincode"
+            id="pincode"
+            required
+          /><br /><br />
+          <input style="width: 100%" class="cws" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div class="mob-container">
+      <div class="sticky-btn">
+        <button id="openModalBtn" class="form-modal">
+          Book Free <br />
+          Consultation
+        </button>
+        <button>Talk to us Now</button>
+      </div>
+      <header>
+        <div class="ivf-nav">
+          <img style="width: 150px" src="images/nova-ivf-logo.svg" alt="logo" />
+
+          <span style="display: flex; align-items: center; gap: 10px">
+            <button class="cws form-modal">Chat with us</button>
+            <img
+              style="width: 30px"
+              src="images/wp-icon.png"
+              alt="whatsapp icon"
+          /></span>
+        </div>
+      </header>
+      <div style="text-align: center" class="ivf-container">
+        <div class="banner-text">
+          <h1>Expert IVF Consultation for Free in Hyderabad</h1>
+          <p class="mtb p-bold">
+            Get guidance and support from India’s best fertility experts at no
+            charge at your nearest Nova IVF Centre
+          </p>
+        </div>
+        <div class="banner-img-div">
+          <img style="width: 100%" src="images/banner-img.png" alt="" />
+          <span>IVF Packages starting at ₹99,000*</span>
+        </div>
+        <div class="specality-div">
+          <div class="specality">
+            <span><img src="images/pregnancy.png" alt="" /></span>
+            <p><span>80,000+</span> IVF Preganancies</p>
+          </div>
+          <div class="specality">
+            <span><img src="images/expertise.png" alt="" /></span>
+            <p><span>100+</span> India's Leading Experts</p>
+          </div>
+          <div class="specality">
+            <span><img src="images/touch.png" alt="" /></span>
+            <p><span>80+</span> Advanced Technology Centres</p>
+          </div>
+          <div class="specality">
+            <span><img src="images/location-pin.png" alt="" /></span>
+            <p>Present in<span> 50+ Cities</span></p>
+          </div>
+          <div class="specality">
+            <span><img src="images/zero-percent.png" alt="" /></span>
+            <p><span>0%</span> Interest on EMI Option</p>
+          </div>
+          <div class="specality">
+            <span><img src="images/trophy.png" alt="" /></span>
+            <p>Winner of Outstanding<span> IVF Chain Award </span>2024</p>
+          </div>
+        </div>
+        <div class="ivf-contact">
+          <form>
+            <input
+              class="input-form"
+              placeholder="Full Name*"
+              type="text"
+              name="name"
+              id="name"
+              required
+            />
+            <input
+              class="input-form"
+              placeholder="Mobile Number*"
+              type="tel"
+              name="number"
+              id="number"
+              maxlength="10"
+              required
+            />
+            <input
+              class="input-form"
+              placeholder="Pincode*"
+              type="number"
+              name="pincode"
+              id="pincode"
+              required
+            />
+            <button style="margin: 10px 0px" class="cws">
+              Book Free Consultation
+            </button>
+          </form>
+        </div>
+        <div class="consultation-div">
+          <h2>Always take professional advice first!</h2>
+          <p class="mtb">
+            Dreaming of becoming a parent or need guidance on natural
+            conception? Expert advice can provide the clarity you need to
+            explore your best options. Let Nova IVF be your trusted partner in
+            planning for a bright and hopeful future. Connect with the best in
+            industry fertility experts at no cost, avail a free consultation
+            today.
+          </p>
+          <div class="consult-card-div">
+            <div class="consult-card">Celebrating First Steps for 15 Years</div>
+            <div class="consult-card">Affordable Treatment Options</div>
+            <div class="consult-card">Leading Success Rates in IVF</div>
+            <div class="consult-card">
+              First in India to adopt World-class Standards
+            </div>
+            <div class="consult-card">
+              Internationally Trained Embryologists
+            </div>
+            <div class="consult-card">
+              State-of-the-art Laboratory Technology
+            </div>
+          </div>
+          <button style="margin: 10px 0px" class="cws form-modal">
+            Book Free Consultation
+          </button>
+        </div>
+        <div class="rating-div">
+          <h2>
+            80k+Successful <br />
+            IVF Preganancies
+          </h2>
+          <div class="ratings">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+            </div>
+            <p>We became parents at 38 and 43. Thank you Nova IVF.</p>
+            <h3>Kunal & Lavita</h3>
+          </div>
+          <div class="ratings">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+            </div>
+            <p>
+              Having a baby saved my life and helped me experience joy again.
+            </p>
+            <h3>Fatima</h3>
+          </div>
+          <div class="ratings">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+              <i class="fa-solid fa-star" style="color: #3f9cbb"></i>
+            </div>
+            <p>
+              Even through PCOD and all the complications I had with my cycle.
+              Nova IVF experts were confident I could be a mother. Thank you for
+              helping me on my journey to mother my son.
+            </p>
+            <h3>Rincy</h3>
+          </div>
+        </div>
+        <div class="youtube-div">
+          <h2>Understand the process</h2>
+          <div class="iframe-div">
+            <iframe
+              width="100%"
+              height="215"
+              src="https://www.youtube.com/embed/9cGBDBIihtE?si=ncEsbKC2F5A2Qc8o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button style="margin: 10px 0px" class="cws form-modal">
+            Book Free Consultation
+          </button>
+        </div>
+        <div class="specialist-slider">
+          <h2>
+            Get to know <br />
+            your IVF Specialist
+          </h2>
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <div class="dr-card">
+                  <img src="images/dr-sandeep-mane.jpg" alt="" />
+                  <h3 style="margin-top: 40px">Dr. Sandeep Mane</h3>
+                  <p>FRCOG (UK), CCST (UK), MD, FCPS, DGO, DICOG</p>
+                  <button
+                    style="margin: 10px 0px; font-size: 13px"
+                    class="cws form-modal"
+                  >
+                    Book Free Consultation
+                  </button>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="dr-card">
+                  <img src="images/dr-namrata-tendolkar.jpg" alt="" />
+                  <h3 style="margin-top: 40px">Dr. Namrata Tendolkar</h3>
+                  <p>
+                    MBBS, MS (OBG), Fellowship in High Risk Obstetrics,
+                    Certificate Course in Reproductive Medicine (ICOG)
+                  </p>
+                  <button
+                    style="margin: 10px 0px; font-size: 13px"
+                    class="cws form-modal"
+                  >
+                    Book Free Consultation
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+          </div>
+        </div>
+        <div class="key-skill-div">
+          <div class="skill-image">
+            <img src="images/fertility.jpg" alt="" />
+            <h3>Pioneers in Fertility</h3>
+            <p>
+              First in India to adopt world-class standards of IVF treatment and
+              introduce embryology protocols in the country.
+            </p>
+          </div>
+          <div class="skill-image">
+            <img src="images/expert-dr.jpg" alt="" />
+            <h3>Highly Skilled Team</h3>
+            <p>
+              Consult some of the best fertility specialists and receive
+              personalised advice tailored to your unique needs and concerns.
+            </p>
+          </div>
+          <div class="skill-image">
+            <img src="images/comp-care.jpg" alt="" />
+            <h3>Comprehensive Care</h3>
+            <p>
+              Get a detailed glimpse into your reproductive health. Explore
+              extensive services including IVF, genetic testing, AMH - HSG
+              tests, and cryopreservation.
+            </p>
+          </div>
+          <div class="skill-image">
+            <img src="images/consult.jpg" alt="" />
+            <h3>Free Consultation</h3>
+            <p>
+              Our limited period offer gives you the opportunities to save on
+              the consultation fees and USG costs. Get started on your fertility
+              journey today.
+            </p>
+          </div>
+          <button style="margin: 10px 0px" class="cws form-modal">
+            Book Free Consultation
+          </button>
+        </div>
+        <div class="benefits">
+          <h2>
+            Reasons why you shouldn't <br />
+            miss this opportunity
+          </h2>
+          <div class="benefit-list">
+            <div class="benefit">
+              <div class="benefit-img">
+                <img src="images/health.png" alt="" />
+              </div>
+              <p>Early <br />Detection</p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-img">
+                <img src="images/task.png" alt="" />
+              </div>
+              <p>Personalised <br />Plan</p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-img">
+                <img src="images/philosophy.png" alt="" />
+              </div>
+              <p>Peace <br />of Mind</p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-img">
+                <img src="images/consultant.png" alt="" />
+              </div>
+              <p>Expert <br />Advice</p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-img">
+                <img src="images/piggy-bank.png" alt="" />
+              </div>
+              <p>Cost Saving</p>
+            </div>
+          </div>
+        </div>
+        <div class="journey">
+          <h2>A Snapshot of your Journey</h2>
+          <table>
+            <tr>
+              <td><b>Schedule your first visit</b></td>
+              <td>On the 18th day of your period.</td>
+            </tr>
+            <tr>
+              <td>
+                <b
+                  >Your <br />
+                  follow-up</b
+                >
+              </td>
+              <td>
+                Basis your check-up, your 2nd visit will be scheduled on the
+                9th, or the 2nd day of your period, for IUI or IVF treatment.
+              </td>
+            </tr>
+            <tr>
+              <td><b>Treatment Cost</b></td>
+              <td>
+                Fertility Check-up: Free upon online booking IUI: Starts from
+                INR 10,000 IVF: INR 75,000 - INR 2,50,000
+              </td>
+            </tr>
+            <tr>
+              <td><b>Treatment Duration</b></td>
+              <td>
+                Fertility Check-up: 1 Day <br />
+                IUI: Approximately 28-Days <br />
+                IVF: 6-8 Weeks
+              </td>
+            </tr>
+          </table>
+          <div class="padd-40">
+            <h2>
+              Schedule your <br />
+              Free Consultation
+            </h2>
+            <p class="mtb">
+              Empower yourself with the knowledge and guidance you need to take
+              control of your fertility. Book your free consultation and
+              ultrasonography with Nova IVF today!
+            </p>
+            <button style="margin: 10px 0px" class="cws form-modal">
+              Book Free Consultation
+            </button>
+          </div>
+        </div>
+        <div class="faq-section">
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                When should I visit the Nova IVF Fertility Hyderabad Centre?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                You should visit whenever you have concerns about fertility or
+                wish to discuss your options with a specialist.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>How many Nova IVF Fertility centres are there in Hyderabad?</p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                What is the Nova IVF Fertility Chanda Nagar centre’s clinic
+                timing?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                You should visit whenever you have concerns about fertility or
+                wish to discuss your options with a specialist.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>What is the cost of IUI in NIF Hyderabad?</p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                What is the cost of IVF treatment at Nova IVF Fertility Chanda
+                Nagar centre? How much does IVF treatment cost at Nova IVF
+                Fertility Hyderabad?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                You should visit whenever you have concerns about fertility or
+                wish to discuss your options with a specialist.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                What is the cost of ICSI in Nova IVF Fertility centre in
+                Hyderabad?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                What is the preimplantation genetic testing cost at Nova IVF
+                Fertility Chanda Nagar centre?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>
+                What are the advantages of Nova IVF Fertility Chanda Nagar
+                centre?
+              </p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-header">
+              <p>How can I contact Nova IVF Fertility centres in Hyderabad?</p>
+              <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="faq-content">
+              <p>
+                There are several Nova IVF Fertility centres in Hyderabad, each
+                offering comprehensive fertility services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      //  Slider script
+      let currentSlide = 0;
+
+      function moveSlide(direction) {
+        const slider = document.querySelector(".slider");
+        const slides = document.querySelectorAll(".slide");
+        const totalSlides = slides.length;
+
+        currentSlide += direction;
+
+        if (currentSlide >= totalSlides) {
+          currentSlide = 0;
+        } else if (currentSlide < 0) {
+          currentSlide = totalSlides - 1;
+        }
+
+        const offset = -currentSlide * 100;
+        slider.style.transform = `translateX(${offset}%)`;
+      }
+
+      // Accordion Script
+
+      document.querySelectorAll(".faq-header").forEach((header) => {
+        header.addEventListener("click", () => {
+          const faqItem = header.parentElement;
+
+          // Toggle the active class
+          faqItem.classList.toggle("active");
+
+          // Close other accordions if desired
+          document.querySelectorAll(".faq-item").forEach((item) => {
+            if (item !== faqItem) {
+              item.classList.remove("active");
+            }
+          });
+        });
+      });
+
+      // Modal Script
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const modal = document.getElementById("consultationModal");
+        const closeModalBtn = document.querySelector(".close-btn");
+
+        // Function to open the modal
+        function openModal() {
+          modal.style.display = "flex";
+        }
+
+        // Function to close the modal
+        function closeModal() {
+          modal.style.display = "none";
+        }
+
+        // Get all buttons with text "Book Free Consultation" and add event listeners
+        const bookConsultationBtns = document.querySelectorAll(".form-modal");
+        bookConsultationBtns.forEach((button) => {
+          button.addEventListener("click", openModal);
+        });
+
+        // Add event listener for the close button
+        closeModalBtn.addEventListener("click", closeModal);
+
+        // Add event listener to close modal when clicking outside the modal content
+        window.addEventListener("click", function (event) {
+          if (event.target === modal) {
+            closeModal();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
