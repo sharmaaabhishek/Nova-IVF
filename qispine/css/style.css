@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+.text-center {
+  text-align: center;
+}
+
+.header-text {
+  font-size: 20px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+.pad-style {
+  padding: 20px;
+}
+.width-100 {
+  width: 100%;
+}
+h3.header-text {
+  font-size: 15px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 16px;
+  background-color: #ffffff;
+}
+
+header .logo {
+  width: 145px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .qispine-cta {
+  display: none;
+  text-decoration: none;
+  background: #f5821f;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* Banner styles */
+.banner,
+.treat-adv {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 10px 0;
+}
+
+.banner-img,
+.banner-text,
+.treat-adv-img,
+.treat-adv-text {
+  flex: 1;
+}
+
+.banner-img img,
+.treat-adv-img img {
+  width: 100%;
+}
+
+.banner-text h1 {
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  text-align: center;
+  color: #7a7a7a;
+  margin: 10px 0;
+}
+
+.banner-text p span {
+  display: block;
+  color: #f58320;
+}
+
+/* Form styles */
+form {
+  max-width: 340px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: inset 0 2px 3px #ddd;
+  font-size: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+/* Call to action button */
+.cta-btn {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 230px;
+  text-align: center;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.07), 0 2px 8px 0 rgba(0, 0, 0, 0.11);
+  font-size: 18px;
+  font-weight: 500;
+  background: #f5821f;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Expertise section */
+.expertise {
+  margin-top: 30px;
+  background: #f6f6f6;
+  padding: 30px 0;
+}
+
+.expertise h2,
+.expertise h3 {
+  margin-bottom: 20px;
+}
+
+/* Expertise list */
+ul.expertise-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  max-width: 800px;
+  padding: 0;
+}
+
+.expertise-box li {
+  background: #f5821f;
+  display: inline-flex;
+  margin: 5px;
+  padding: 3px 7px;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Clinic branches section */
+.clinic-branches,
+.consult-experts,
+.consult-experts1,
+.consult-experts2 {
+  background: #282f39;
+  padding: 30px 0;
+}
+
+.clinic-branches h3,
+.consult-experts h3,
+.consult-experts1 h3,
+.consult-experts2 h3 {
+  color: #ffffff;
+}
+
+.clinic-branches a,
+.consult-experts a,
+.consult-experts1 a,
+.consult-experts2 a {
+  text-decoration: none;
+  color: #000000;
+  background: #ffffff;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 15px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.treat-adv {
+  max-width: 768px;
+  margin: auto;
+  gap: 30px;
+}
+.treat-adv-text {
+  padding: 0px 20px;
+}
+.treat-adv-text li {
+  color: #7a7a7a;
+  list-style: disc;
+  padding-left: 0px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
+.appointment-steps,
+.qi-approach {
+  max-width: 1000px;
+  margin: auto;
+}
+.appointment-steps .steps-div,
+.qi-approach-div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.appointment-steps .steps-div .appoint-steps,
+.qi-approach-div .qi-approach-steps {
+  flex: 50%;
+}
+.appointment-steps .steps-div .appoint-steps img {
+  width: 100%;
+}
+.google-ratings h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.client-card {
+  background: #f6f6f6;
+  padding: 20px 20px 50px 20px;
+  border-radius: 10px;
+  font-weight: normal;
+}
+.logo-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-logo {
+  width: 100px;
+}
+.google-logo {
+  width: 20px;
+}
+.client-google-rating .slide h5 {
+  margin-top: 10px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+footer p {
+  font-size: 11px;
+  margin-top: 20px;
+}
+.sticky-btn {
+  display: none;
+}
+.owl-carousel .owl-dots {
+  text-align: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  border: 1px solid;
+  width: 7px;
+  height: 7px;
+  background: #000;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+.owl-carousel .owl-dots .owl-dot.active {
+  opacity: 1;
+}
+.client-carousel .owl-item img {
+  height: 400px;
+  object-fit: contain;
+}
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-wrapper::before,
+.carousel-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.carousel-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+  }
+
+  header .qispine-cta {
+    display: block;
+  }
+
+  .banner,
+  .treat-adv {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-text h1 {
+    font-size: 20px;
+  }
+
+  .cta-btn {
+    font-size: 16px;
+  }
+  .treat-adv {
+    padding: 10px 0px;
+  }
+  .qi-approach-div .qi-approach-steps {
+    flex: 100%;
+  }
+  .carousel-wrapper::before,
+  .carousel-wrapper::after {
+    width: 20px;
+  }
+  footer {
+    padding-bottom: 100px;
+  }
+  .sticky-btn {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  .sticky-btn button,
+  .sticky-btn .qispine-cta {
+    color: #ffffff;
+    background: #f58320;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+  }
+  .modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #fff8;
+    backdrop-filter: blur(1px);
+  }
+  .modal-content {
+    background: #e6e9f0;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px 1px #3333;
+  }
+  .close-btn {
+    color: #f5821f;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .whatsapp-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+    border: 4px solid #d2f7d2;
+    box-shadow: 0 0 15px #aaa;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    background: #30b944;
+    padding: 15px;
+  }
+  .whatsapp-icon img {
+    width: 100%;
+  }
+}
