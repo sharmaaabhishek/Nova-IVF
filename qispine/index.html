@@ -33,20 +33,25 @@
           Book your first FREE Appointment with our Doctor today!
         </h1>
         <p>Fill in your details or call us on <span>08035216492 </span></p>
-        <form>
-          <div>
-            <label for="name">Name*</label>
+        <form id="callback-form" F>
+          <div class="form-div">
+            <label for="name">Name *</label>
             <input type="text" id="name" name="name" required />
+            <span class="error" id="name-error">Name is required.</span>
           </div>
-          <div>
-            <label for="email">Email*</label>
+          <div class="form-div">
+            <label for="email">Email *</label>
             <input type="email" id="email" name="email" required />
+            <span class="error" id="email-error">Valid email is required.</span>
           </div>
-          <div>
-            <label for="number">10 Digit Phone Number*</label>
+          <div class="form-div">
+            <label for="number">10 Digit Phone Number *</label>
             <input type="tel" id="number" name="number" required />
+            <span class="error" id="number-error"
+              >Phone number must be 10 digits.</span
+            >
           </div>
-          <div>
+          <div class="form-div">
             <button class="cta-btn" type="submit">Get A Call Back</button>
           </div>
         </form>
@@ -153,33 +158,36 @@
     <section class="appointment-steps text-center">
       <div class="steps-div">
         <div class="step1 appoint-steps">
-          <div class="pad-style">
+          <div>
             <img src="images/step-1.png" alt="Step 1" />
           </div>
         </div>
         <div class="step2 appoint-steps">
-          <div class="pad-style">
+          <div>
             <img src="images/step-2.png" alt="Step 2" />
           </div>
         </div>
         <div class="step3 appoint-steps">
-          <div class="pad-style">
+          <div>
             <img src="images/step-3.png" alt="Step 3" />
           </div>
         </div>
         <div class="step4 appoint-steps">
-          <div class="pad-style">
+          <div>
             <img src="images/step-4.png" alt="Step 4" />
           </div>
         </div>
       </div>
-      <h2 class="header-text">Our Team</h2>
-      <p>
-        Our Doctors with fellowships in Orthopedics and over 9,000 hours of
-        specialized experience in treating spinal mechanical issues, are true
-        experts. We are committed to continuous learning and knowledge sharing,
-        constantly updating our skills to provide the best possible care.
-      </p>
+      <div class="pad-style">
+        <h2 class="header-text">Our Team</h2>
+        <p>
+          Our Doctors with fellowships in Orthopedics and over 9,000 hours of
+          specialized experience in treating spinal mechanical issues, are true
+          experts. We are committed to continuous learning and knowledge
+          sharing, constantly updating our skills to provide the best possible
+          care.
+        </p>
+      </div>
       <div class="qispine-team-features pad-style">
         <img class="width-100" src="images/Frame-270.jpg" alt="" />
       </div>
@@ -217,34 +225,34 @@
     </div>
     <section class="qi-approach">
       <h2 class="header-text">The QI Approach</h2>
-      <p>
+      <p class="text-center">
         4-step personalised solution for pain reduction & management of Spine
         Pain led by Experts & Data Intelligence
       </p>
       <div class="qi-approach-div">
         <div class="qi-approach-step1 qi-approach-steps">
-          <div class="pad-style">
+          <div>
             <img class="width-100" src="images/spine-1.jpg" alt="Step 1" />
             <h2 class="header-text">1. Spine Cell Repair</h2>
             <p>Reduce pain & Repair damaged cells</p>
           </div>
         </div>
         <div class="qi-approach-step2 qi-approach-steps">
-          <div class="pad-style">
+          <div>
             <img class="width-100" src="images/spine-2.jpg" alt="Step 2" />
             <h2 class="header-text">2. Digital Spine Analysis</h2>
             <p>For accurate diagnosis</p>
           </div>
         </div>
         <div class="qi-approach-step3 qi-approach-steps">
-          <div class="pad-style">
+          <div>
             <img class="width-100" src="images/spine-3.jpg" alt="Step 3" />
             <h2 class="header-text">3. Isolation treatment</h2>
             <p>For 3X better results</p>
           </div>
         </div>
         <div class="qi-approach-step4 qi-approach-steps">
-          <div class="pad-style">
+          <div>
             <img class="width-100" src="images/spine-4.jpg" alt="Step 4" />
             <h2 class="header-text">4. Recurrence management</h2>
             <p>To prevent future aches and fractures</p>
@@ -433,10 +441,14 @@
         <span class="close-btn">×</span>
         <h2 class="header-text" style="text-align: start">
           Call us on
-          <a href="tel:+918035216527 ">+918035216527 </a>
+          <a
+            href="tel:+918035216527"
+            style="color: #f5821f; text-decoration: none"
+            >+918035216527
+          </a>
           <span style="display: block">or Leave your details below</span>
         </h2>
-        <h4 style="font-size: 12px;">
+        <h4 style="font-size: 12px; margin: 5px 0px">
           Clinic working hours 8:00 am to 8:00 pm
         </h4>
         <form>
